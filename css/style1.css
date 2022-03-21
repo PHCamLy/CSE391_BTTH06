@@ -1,0 +1,54 @@
+.container h3{
+    text-align: center;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+table{
+    width: 60%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    height: 30px;
+}
+#cot_1{
+    width: 20%;
+}
+#cot_1 button{
+    display: flex;
+    justify-content: center;
+    padding: 3px 15px 3px 15px;
+}
+#cot_2{
+    width: 80%;
+}
+#hang_2{
+    color: rgb(255, 196, 0);
+}
+#hang_3{
+    text-align: center;
+}
+input{
+    width: 50px;
+    margin: auto;
+}
+#hang_4{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    margin: auto;
+    padding: 2px 15px 2px 15px;
+    margin-left: 10px;
+}

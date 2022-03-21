@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTTH06_Mang</title>
+    <link rel="stylesheet" href="/css/style1.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Thao tác trên mảng</h3>
+        <div class="row">
+            <table>
+                <tr>
+                    <td id="cot_1">
+                        <button onclick="tao_mang()">Tạo mảng</button>
+                    </td>
+                    <td id="cot_2">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="hang_2" colspan="2">
+                        Giá trị mảng sau khi xử lý
+                    </td>
+                </tr>
+                <tr>
+                    <td id="hang_3" colspan="2">
+                        <form>
+                           <input type="radio" name="Sap_Xep" id="tang" onclick="tang_dan()">Sắp xếp tăng dần
+                           <input type="radio" name="Sap_Xep" id="giam" onclick="giam_dan()">Sắp xếp giảm dần
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div id="hang_4">
+                            <div class="">
+                                <form >
+                                    Thêm vào vị trí 
+                                    <input type="number" id="vi_tri">
+                                    Giá trị
+                                    <input type="number" id="gia_tri">
+                                </form>
+                            </div>
+                            <div class="btn">
+                                <button onclick="them_pt()">Thêm</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+<script src="/js/1.js"></script>  
+</body>
+</html>
